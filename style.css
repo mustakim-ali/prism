@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: K2D, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #343a40;
+    text-align: left;
+    background-color: yellow;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-between !important;
+    width: 100%;
+}
+
+.heading-brand {
+    font-weight: 800;
+    font-size: 1.75rem;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+h5 {
+    color: #ffffff;
+    background-color: black;
+    border-color:  1px solid black;
+    margin-right: 210px;
+    margin-top: 50px;
+    padding: 8px 24px;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+row-sfl {
+    margin-top: 6rem !important;
+}
+
+.row-sfl 
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.row-sfl 
+.p1 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+a:not(.heading-brand) {
+    font-weight: 500;
+}
+.btn {
+    box-shadow: 0 4px 6px rgba(255, 255, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.svg-icon {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.btn-success {
+    color: #ffffff;
+    background-color: #5cc72a;
+    border-color: #5cc72a;
+}
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    transition: all 0.2s;
+    text-decoration: none;
+    margin-left: 700px;
+}
+img{
+    width: 50%;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 50px;
+}
